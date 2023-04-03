@@ -26,6 +26,13 @@ function App() {
   return (
     <div>
       <h2>Let's get not started!</h2>
+
+{/* 
+ExpenseItem je zapravo nova skripta u kojoj smo stavili propertije iz objekta u tagu Expense item i ovo title/amount/date zapravo predstavljaju u fajlu ExpenseItem PROPS odnosno 
+parametar FUNCKIJE kada u ExpenseItem.js Fajlu smo stavili props.title ono predstavlja zapravo ovo title iz Expense Item Taga itd.
+
+*/}
+
       <ExpenseItem
         title={expenses[0].title}
         amount={expenses[0].amount}
