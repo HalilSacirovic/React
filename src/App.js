@@ -1,3 +1,4 @@
+import Card from "./component/Card";
 import ExpenseItem from "./component/ExpenseItem";
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
   ];
 
   return (
-    <div>
+    <Card>
       <h2>Let's get not started!</h2>
 
 {/* 
@@ -53,7 +54,7 @@ parametar FUNCKIJE kada u ExpenseItem.js Fajlu smo stavili props.title ono preds
         amount={expenses[3].amount}
         date={expenses[3].date}
       ></ExpenseItem>
-    </div>
+    </Card>
   );
 }
 
