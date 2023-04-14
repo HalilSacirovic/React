@@ -29,6 +29,12 @@ const App = () => {
       amount: 699,
       date: new Date(2021, 5, 12),
     },
+    {
+      id: 'e6',
+      title: 'Electricity bill',
+      amount: 76.5,
+      date: new Date(2021, 5, 12),
+    },
   ];
 
   // return React.createElement(
